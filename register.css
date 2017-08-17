@@ -1,0 +1,61 @@
+.register_box{
+	width: 410px;
+	padding: 37px 30px 40px;
+	background-color: #fff;
+	box-sizing: border-box;
+	border: solid 1px #e9e9e9;
+	margin: 50px auto;
+	text-align: center;
+}
+.verify_code{
+	position: relative;
+}
+input{
+	height: 40px;
+	margin: 20px 0 0;
+	line-height: 22px;
+	width: 100%;
+	padding: 8px 10px;
+	font-size: 14px;
+	box-sizing: border-box;
+}
+.input_wrap{
+	margin-right: 148px;
+}
+.input_v{
+
+	width: 198px;
+}
+.get_verify_code{
+	box-sizing: border-box;
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	top: 21px;
+	width: 140px;
+	border: solid 1px #1695E3;
+	background: #fff;
+	color: #1695E3;
+	padding: 8px 20px;
+	cursor: pointer;
+}
+.submit.focus{
+	border: solid 1px #1695E3;
+	background: #fff;
+	color: #1695E3;
+}
+.submit{
+	margin-top: 50px;
+	padding: 10px 0;
+	background: #1695E3;
+	color: #fff;
+	cursor: pointer;
+}
+.error_tip{
+	color: #ff001f;
+	text-align: left;
+}
+.disable{
+	border: solid 1px #ccc;
+	color: #ccc;
+}
